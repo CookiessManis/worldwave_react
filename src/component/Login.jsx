@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Form } from 'react-bootstrap';
-import Buttonelement from './element/Buttonelement';
-import { Link } from 'react-router-dom';
-import '../css/loginregist.css';
+import { useState } from "react";
+import { Form } from "react-bootstrap";
+import Buttonelement from "./element/Buttonelement";
+import { Link } from "react-router-dom";
+import "../css/loginregist.css";
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -33,7 +33,13 @@ const Login = () => {
             </Link>
           </div>
           <Link className="linkfix" to="/home">
-            <Buttonelement width={'100%'} fw={400} br={'5px'} content={'MASUK'} bgColor="#1F79E5"/>
+            <Buttonelement
+              width={"100%"}
+              fw={400}
+              br={"5px"}
+              content={"MASUK"}
+              bgColor="#1F79E5"
+            />
           </Link>
           <div className="social-login">
             <div className="divider">
@@ -45,7 +51,10 @@ const Login = () => {
               <img src="assets/apple.png" alt="Apple Login" />
             </div>
             <div className="register-link text-center">
-              Baru di Work Weave? <span onClick={toggleForm} className="toggle-link">Buat akun baru</span>
+              Baru di Work Weave?{" "}
+              <span onClick={toggleForm} className="toggle-link">
+                Buat akun baru
+              </span>
             </div>
           </div>
         </Form>
@@ -71,11 +80,20 @@ const Login = () => {
           </Form.Group>
 
           <Form.Group controlId="formAgreement" className="mb-2">
-            <Form.Check type="checkbox" label="Dengan mendaftar, saya menyetujui syarat dan ketentuan Work Weave" />
+            <Form.Check
+              type="checkbox"
+              label="Dengan mendaftar, saya menyetujui syarat dan ketentuan Work Weave"
+            />
           </Form.Group>
 
           <Link className="linkfix" to="/home">
-            <Buttonelement width={'100%'} fw={400} br={'5px'} content={'DAFTAR'} bgColor="#1F79E5"/>
+            <Buttonelement
+              width={"100%"}
+              fw={400}
+              br={"5px"}
+              content={"DAFTAR"}
+              bgColor="#1F79E5"
+            />
           </Link>
 
           <div className="social-login">
@@ -88,7 +106,10 @@ const Login = () => {
               <img src="assets/apple.png" alt="Apple Login" />
             </div>
             <div className="register-link text-center">
-              Sudah punya akun? <span onClick={toggleForm} className="toggle-link">Masuk</span>
+              Sudah punya akun?{" "}
+              <span onClick={toggleForm} className="toggle-link">
+                Masuk
+              </span>
             </div>
           </div>
         </Form>
