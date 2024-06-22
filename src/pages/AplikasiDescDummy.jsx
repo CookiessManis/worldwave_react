@@ -1,6 +1,6 @@
 import Navigationabar from "../component/Navigationbar";
 import Footer from "../component/Footer";
-import { useState } from "react";
+import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 
