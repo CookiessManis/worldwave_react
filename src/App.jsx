@@ -7,7 +7,7 @@ import Faq from "./pages/Faq";
 import Profile from "./pages/Profile";
 import Buatproyek from "./pages/Buatproyek";
 import Aplikasi from "./pages/Aplikasi";
-import AplikasiDescdummy from "./pages/ApplikasiDescDummy";
+import AplikasiDescdummy from "./pages/AplikasiDescDummy";
 
 function App() {
   return (
