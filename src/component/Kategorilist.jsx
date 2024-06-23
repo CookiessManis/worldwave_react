@@ -6,7 +6,7 @@ const kategori = [
     title: "Aplikasi",
     img: "assets/kategori-icon/kat-1.png",
     desc: "Aplikasi Web maupun Mobile",
-    link: "/Proyek",
+    link: "/Aplikasi",
   },
   {
     title: "Arsitektur",
